@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover Wanderlust, a full-stack vacation rental platform built with Node.js, Express, MongoDB, Cloudinary and Mapbox."
+    />
+
+    <title>Wanderlust — Find Your Somewhere</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='80'%3E🧭%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <a href="#" class="brand">
+        <i class="fa-regular fa-compass brand-compass"></i>
+        <span>wanderlust<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#technology">Technology</a>
+      </nav>
+
+      <a
+        href="https://wanderlust-k06z.onrender.com/listings"
+        class="nav-cta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Open App ↗
+      </a>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-content">
+          <span class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            A FULL-STACK VACATION RENTAL PLATFORM
+          </span>
+
+          <h1>
+            Find your<br />
+            <span>somewhere.</span>
+          </h1>
+
+          <p class="hero-description">
+            Discover unique stays, explore new destinations, and share your own
+            space. Wanderlust brings hosts and travelers together, one journey
+            at a time.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://wanderlust-k06z.onrender.com/listings"
+              class="button button-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore Wanderlust <span>↗</span>
+            </a>
+
+            <a href="#features" class="button button-secondary">
+              Discover features <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-caption">
+            <span class="caption-line"></span>
+            Built with Node.js, Express & MongoDB
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-main">
+            <img
+              src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=85"
+              alt="Beautiful vacation home surrounded by nature"
+            />
+          </div>
+
+          <div class="image-label">
+            <span class="label-icon">⌖</span>
+            <div>
+              <strong>Somewhere beautiful</strong>
+              <span>Your next adventure awaits</span>
+            </div>
+          </div>
+
+          <div class="image-badge"><span>✦</span> Stay curious.</div>
+
+          <div class="decorative-circle"></div>
+        </div>
+      </section>
+
+      <!-- Project overview -->
+      <section class="overview">
+        <div class="overview-item">
+          <span class="overview-number">01</span>
+          <div>
+            <strong>Discover</strong>
+            <p>Find your next stay</p>
+          </div>
+        </div>
+
+        <div class="overview-divider"></div>
+
+        <div class="overview-item">
+          <span class="overview-number">02</span>
+          <div>
+            <strong>Explore</strong>
+            <p>Visualize destinations</p>
+          </div>
+        </div>
+
+        <div class="overview-divider"></div>
+
+        <div class="overview-item">
+          <span class="overview-number">03</span>
+          <div>
+            <strong>Connect</strong>
+            <p>Share travel experiences</p>
+          </div>
+        </div>
+
+        <div class="overview-divider"></div>
+
+        <div class="overview-item">
+          <span class="overview-number">04</span>
+          <div>
+            <strong>Host</strong>
+            <p>List your own property</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section features-section" id="features">
+        <div class="section-heading">
+          <span class="section-label">THE EXPERIENCE</span>
+          <h2>More than a place<br />to <span>stay.</span></h2>
+          <p>
+            A closer look at the features that power the Wanderlust vacation
+            rental experience.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large">
+            <div class="feature-top">
+              <span class="feature-icon">⌕</span>
+              <span class="feature-index">01 / DISCOVER</span>
+            </div>
+            <h3>Explore unique stays</h3>
+            <p>
+              Browse property listings, discover new destinations, and explore
+              the details of each stay.
+            </p>
+            <div class="feature-bottom">
+              <span>Listing discovery</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">⌂</span>
+              <span class="feature-index">02 / HOST</span>
+            </div>
+            <h3>Your space, your listing</h3>
+            <p>
+              Create, edit, and delete your own property listings with
+              ownership-based permissions.
+            </p>
+            <div class="feature-bottom">
+              <span>Listing management</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">▧</span>
+              <span class="feature-index">03 / VISUALIZE</span>
+            </div>
+            <h3>Images that tell a story</h3>
+            <p>
+              Upload property images with Cloudinary for optimized storage and
+              delivery.
+            </p>
+            <div class="feature-bottom">
+              <span>Cloudinary integration</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">⌖</span>
+              <span class="feature-index">04 / EXPLORE</span>
+            </div>
+            <h3>Discover places on a map</h3>
+            <p>
+              Visualize property locations through interactive maps and
+              geocoding with Mapbox.
+            </p>
+            <div class="feature-bottom">
+              <span>Maps & geolocation</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">☆</span>
+              <span class="feature-index">05 / SHARE</span>
+            </div>
+            <h3>Real experiences, real reviews</h3>
+            <p>
+              Let authenticated users leave written feedback and rate properties
+              from one to five stars.
+            </p>
+            <div class="feature-bottom">
+              <span>Reviews & ratings</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">⌕</span>
+              <span class="feature-index">06 / FIND</span>
+            </div>
+            <h3>Search your destination</h3>
+            <p>
+              Search listings by destination and quickly find properties that
+              match your travel plans.
+            </p>
+            <div class="feature-bottom">
+              <span>Search functionality</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">♙</span>
+              <span class="feature-index">07 / ACCOUNT</span>
+            </div>
+            <h3>Your own travel account</h3>
+            <p>
+              Register and log in with Passport.js authentication and
+              session-based user management.
+            </p>
+            <div class="feature-bottom">
+              <span>Authentication</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-top">
+              <span class="feature-icon">✓</span>
+              <span class="feature-index">08 / SECURITY</span>
+            </div>
+            <h3>Designed with security in mind</h3>
+            <p>
+              Server-side validation, protected routes, ownership checks, and
+              secure session handling.
+            </p>
+            <div class="feature-bottom">
+              <span>Validation & authorization</span>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="workflow-section" id="how-it-works">
+        <div class="workflow-image">
+          <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+            alt="Scenic mountain lake surrounded by beautiful landscapes"
+            loading="lazy"
+          />
+          <div class="workflow-image-caption">
+            <span>✦</span> Every journey begins somewhere.
+          </div>
+        </div>
+
+        <div class="workflow-content">
+          <span class="section-label">HOW IT WORKS</span>
+          <h2>Simple to explore.<br /><span>Easy to manage.</span></h2>
+          <p class="workflow-description">
+            Wanderlust brings the essentials of a vacation rental platform into
+            one intuitive experience.
+          </p>
+
+          <div class="workflow-list">
+            <div class="workflow-step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Find your destination</h3>
+                <p>Browse available listings and search for places.</p>
+              </div>
+            </div>
+
+            <div class="workflow-step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Explore the details</h3>
+                <p>
+                  View photos, descriptions, prices, locations, and reviews.
+                </p>
+              </div>
+            </div>
+
+            <div class="workflow-step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Create your account</h3>
+                <p>Register or log in to access protected features.</p>
+              </div>
+            </div>
+
+            <div class="workflow-step">
+              <span class="step-number">04</span>
+              <div>
+                <h3>Share your space</h3>
+                <p>Create and manage your own vacation rental listings.</p>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="https://wanderlust-k06z.onrender.com/listings"
+            class="button button-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Try the application ↗
+          </a>
+        </div>
+      </section>
+
+      <!-- Technology -->
+      <section class="section technology-section" id="technology">
+        <div class="section-heading">
+          <span class="section-label">THE TECHNOLOGY</span>
+          <h2>Built from the <span>ground up.</span></h2>
+          <p>
+            A full-stack application combining backend engineering, database
+            management, and third-party integrations.
+          </p>
+        </div>
+
+        <div class="tech-grid">
+          <div class="tech-card">
+            <span class="tech-number">01</span>
+            <div class="tech-symbol">JS</div>
+            <h3>Node.js & Express</h3>
+            <p>Server-side application and routing</p>
+          </div>
+
+          <div class="tech-card">
+            <span class="tech-number">02</span>
+            <div class="tech-symbol">DB</div>
+            <h3>MongoDB & Mongoose</h3>
+            <p>Database and data modeling</p>
+          </div>
+
+          <div class="tech-card">
+            <span class="tech-number">03</span>
+            <div class="tech-symbol">EJS</div>
+            <h3>EJS & Bootstrap</h3>
+            <p>Templating and responsive interface</p>
+          </div>
+
+          <div class="tech-card">
+            <span class="tech-number">04</span>
+            <div class="tech-symbol">AU</div>
+            <h3>Passport.js</h3>
+            <p>User authentication and sessions</p>
+          </div>
+
+          <div class="tech-card">
+            <span class="tech-number">05</span>
+            <div class="tech-symbol">IMG</div>
+            <h3>Cloudinary</h3>
+            <p>Property image hosting</p>
+          </div>
+
+          <div class="tech-card">
+            <span class="tech-number">06</span>
+            <div class="tech-symbol">MAP</div>
+            <h3>Mapbox</h3>
+            <p>Maps and geocoding</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Future scope -->
+      <section class="future-section">
+        <div class="future-content">
+          <span class="section-label">WHAT'S NEXT</span>
+          <h2>Built to grow.</h2>
+          <p>
+            The foundation is here. There is more room to explore, improve, and
+            build.
+          </p>
+        </div>
+
+        <div class="future-tags">
+          <span>Booking calendar</span>
+          <span>Payment integration</span>
+          <span>Advanced filters</span>
+          <span>Saved listings</span>
+          <span>Email notifications</span>
+          <span>Real-time chat</span>
+        </div>
+      </section>
+
+      <!-- Final call to action -->
+      <section class="closing-section">
+        <span class="section-label">READY TO EXPLORE?</span>
+        <h2>There's a place<br />for <span>every story.</span></h2>
+        <p>Take a closer look at Wanderlust in action.</p>
+
+        <a
+          href="https://wanderlust-k06z.onrender.com/listings"
+          class="button button-light"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Wanderlust ↗
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="#" class="brand">
+        <i class="fa-regular fa-compass brand-compass"></i>
+        wanderlust<span class="brand-dot">.</span>
+      </a>
+
+      <p>A vacation rental platform built with curiosity and code.</p>
+
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#technology">Technology</a>
+        <a
+          href="https://github.com/KashishMaurya"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub ↗</a
+        >
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Wanderlust Project</span>
+        <span>Made with care by Kashish ♥</span>
+      </div>
+    </footer>
+  </body>
+</html>
